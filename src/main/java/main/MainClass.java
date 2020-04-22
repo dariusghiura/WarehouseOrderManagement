@@ -10,6 +10,6 @@ public class MainClass {
      * Main method of the application
      */
     public static void main(String[] args) {
-        Logic logic = new Logic(args[0]);
+        Logic logic = new Logic("commands.txt");
     }
 }
